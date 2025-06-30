@@ -2,7 +2,7 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "gateway" : true,
+      "gateway" : false,
       "overwriteActivityTime" : false,
       "description" : ""
     },
@@ -22,14 +22,17 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "2beccc80-03d2-11f0-b49e-73e9f982809f"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "40de0ae0-559f-11f0-8c08-5da2d50d0a40"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
       "id" : "40de0ae0-559f-11f0-8c08-5da2d50d0a40"
     },
     "label" : "sensor one",
-    "name" : "Sensor 1",
+    "name" : "Sensor ONE",
     "softwareId" : null,
     "type" : "default"
   },
