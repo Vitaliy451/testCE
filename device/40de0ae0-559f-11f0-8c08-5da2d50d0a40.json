@@ -15,12 +15,16 @@
         "type" : "DEFAULT"
       },
       "transportConfiguration" : {
-        "type" : "DEFAULT"
+        "type" : "LWM2M",
+        "edrxCycle" : null,
+        "pagingTransmissionWindow" : null,
+        "powerMode" : null,
+        "psmActivityTimer" : null
       }
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "2beccc80-03d2-11f0-b49e-73e9f982809f"
+      "id" : "076ba050-13ce-11f0-b5ef-51e3a139aedd"
     },
     "externalId" : {
       "entityType" : "DEVICE",
@@ -34,7 +38,7 @@
     "label" : "sensor one",
     "name" : "Sensor ONE",
     "softwareId" : null,
-    "type" : "default"
+    "type" : "SYS adm test"
   },
   "credentials" : {
     "credentialsId" : "Ez2TLjQcgdPnxox1uagb",
