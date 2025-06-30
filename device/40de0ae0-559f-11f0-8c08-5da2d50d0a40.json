@@ -2,7 +2,7 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "gateway" : false,
+      "gateway" : true,
       "overwriteActivityTime" : false,
       "description" : ""
     },
@@ -39,8 +39,32 @@
     "credentialsValue" : null
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
-    "SHARED_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1751280292530,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "serverAttribute",
+      "lastUpdateTs" : 1751280360739,
+      "longValue" : null,
+      "strValue" : "server_test"
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "sharedAttribute",
+      "lastUpdateTs" : 1751280378027,
+      "longValue" : null,
+      "strValue" : "shared_test"
+    } ]
   },
   "calculatedFields" : [ ]
 }
